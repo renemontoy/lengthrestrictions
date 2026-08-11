@@ -1399,6 +1399,146 @@ export default function PutterLength() {
       }
   };
 
+  const ZeroDoneshaftMinList = {
+      "M16 Straight Black" : {
+        "PXG Straight I": '27 1/4"',
+        "PXG Straight II": '27 1/4"',
+        "PXG Straight III": '27 1/4"',
+        "PXG Pistol I": '27 1/4"',
+        "PXG Pistol II": '27 1/4"',
+        "PXG Pistol III": '27 1/4"',
+        "PXG Slant 1.5": '27 1/4"',
+        "PXG Slant Pistol": '27 1/4"',
+        "PXG Slant Pistol Mid": '27 1/4"',
+        "PXG XL": '33 1/2"',
+        "Super Stroke Flatso 1.0": '27 1/4"',
+        "Super Stroke Flatso 2.0": '27 1/4"',
+        "Super Stroke Flatso 3.0": '27 1/4"',
+        "Super Stroke Fatso 5.0": '27 1/4"',
+        "Super Stroke Pistol 1.0": '27 1/4"',
+        "Super Stroke Pistol 2.0": '27 1/4"',
+        "Super Stroke Pistol 3.0": '27 1/4"',
+        "Super Stroke Plus 2.0 XL": '27 1/4"',
+        "SinkFit": '30 3/4"',
+        "Winn Excell 15\"": '27 1/4"'
+    },
+      "M16 Straight Chrome" : {
+        "PXG Straight I": '27 1/4"',
+        "PXG Straight II": '27 1/4"',
+        "PXG Straight III": '27 1/4"',
+        "PXG Pistol I": '27 1/4"',
+        "PXG Pistol II": '27 1/4"',
+        "PXG Pistol III": '27 1/4"',
+        "PXG Slant 1.5": '27 1/4"',
+        "PXG Slant Pistol": '27 1/4"',
+        "PXG Slant Pistol Mid": '27 1/4"',
+        "PXG XL": '33 1/2"',
+        "Super Stroke Flatso 1.0": '27 1/4"',
+        "Super Stroke Flatso 2.0": '27 1/4"',
+        "Super Stroke Flatso 3.0": '27 1/4"',
+        "Super Stroke Fatso 5.0": '27 1/4"',
+        "Super Stroke Pistol 1.0": '27 1/4"',
+        "Super Stroke Pistol 2.0": '27 1/4"',
+        "Super Stroke Pistol 3.0": '27 1/4"',
+        "Super Stroke Plus 2.0 XL": '27 1/4"',
+        "SinkFit": '30 3/4"',
+        "Winn Excell 15\"": '27 1/4"'
+      },
+      "Straight Steel Chrome" : {
+        "PXG Straight I": '29 1/4"',
+        "PXG Straight II": '29 1/4"',
+        "PXG Straight III": '29 1/4"',
+        "PXG Pistol I": '29 1/4"',
+        "PXG Pistol II": '29 1/4"',
+        "PXG Pistol III": '29 1/4"',
+        "PXG Slant 1.5": '29 1/4"',
+        "PXG Slant Pistol": '29 1/4"',
+        "PXG Slant Pistol Mid": '29 1/4"',
+        "PXG XL": '34 1/4"',
+        "Super Stroke Flatso 1.0": '29 1/4"',
+        "Super Stroke Flatso 2.0": '29 1/4"',
+        "Super Stroke Flatso 3.0": '29 1/4"',
+        "Super Stroke Fatso 5.0": '29 1/4"',
+        "Super Stroke Pistol 1.0": '29 1/4"',
+        "Super Stroke Pistol 2.0": '29 1/4"',
+        "Super Stroke Pistol 3.0": '29 1/4"',
+        "Super Stroke Plus 2.0 XL": '30 3/4"',
+        "SinkFit": '26 1/4"',
+        "Winn Excell 15\"": '29 1/4"'
+      }
+  };
+
+  const ZeroDoneshaftMaxList = {
+      "M16 Straight Black" : {
+        "PXG Straight I": '38 1/2"',
+        "PXG Straight II": '38 1/2"',
+        "PXG Straight III": '38 1/2"',
+        "PXG Pistol I": '38 1/2"',
+        "PXG Pistol II": '38 1/2"',
+        "PXG Pistol III": '38 1/2"',
+        "PXG Slant 1.5": '38 1/2"',
+        "PXG Slant Pistol": '38 1/2"',
+        "PXG Slant Pistol Mid": '38 1/2"',
+        "PXG XL": '38 1/2"',
+        "Super Stroke Flatso 1.0": '38 1/2"',
+        "Super Stroke Flatso 2.0": '38 1/2"',
+        "Super Stroke Flatso 3.0": '38 1/2"',
+        "Super Stroke Fatso 5.0": '38 1/2"',
+        "Super Stroke Pistol 1.0": '38 1/2"',
+        "Super Stroke Pistol 2.0": '38 1/2"',
+        "Super Stroke Pistol 3.0": '38 1/2"',
+        "Super Stroke Plus 2.0 XL": '38 1/2"',
+        "SinkFit": '38 1/2"',
+        "Winn Excell 15\"": '38 1/2"'
+      },
+      "M16 Straight Chrome" : {
+        "PXG Straight I": '38 1/2"',
+        "PXG Straight II": '38 1/2"',
+        "PXG Straight III": '38 1/2"',
+        "PXG Pistol I": '38 1/2"',
+        "PXG Pistol II": '38 1/2"',
+        "PXG Pistol III": '38 1/2"',
+        "PXG Slant 1.5": '38 1/2"',
+        "PXG Slant Pistol": '38 1/2"',
+        "PXG Slant Pistol Mid": '38 1/2"',
+        "PXG XL": '38 1/2"',
+        "Super Stroke Flatso 1.0": '38 1/2"',
+        "Super Stroke Flatso 2.0": '38 1/2"',
+        "Super Stroke Flatso 3.0": '38 1/2"',
+        "Super Stroke Fatso 5.0": '38 1/2"',
+        "Super Stroke Pistol 1.0": '38 1/2"',
+        "Super Stroke Pistol 2.0": '38 1/2"',
+        "Super Stroke Pistol 3.0": '38 1/2"',
+        "Super Stroke Plus 2.0 XL": '38 1/2"',
+        "SinkFit": '38 1/2"',
+        "Winn Excell 15\"": '38 1/2"'
+      },
+      "Straight Steel Chrome" : {
+        "PXG Straight I": '39"',
+        "PXG Straight II": '39"',
+        "PXG Straight III": '39"',
+        "PXG Pistol I": '39"',
+        "PXG Pistol II": '39"',
+        "PXG Pistol III": '39"',
+        "PXG Slant 1.5": '39"',
+        "PXG Slant Pistol": '39"',
+        "PXG Slant Pistol Mid": '39"',
+        "PXG XL": '39"',
+        "Super Stroke Flatso 1.0": '39"',
+        "Super Stroke Flatso 2.0": '39"',
+        "Super Stroke Flatso 3.0": '39"',
+        "Super Stroke Fatso 5.0": '39"',
+        "Super Stroke Pistol 1.0": '39"',
+        "Super Stroke Pistol 2.0": '39"',
+        "Super Stroke Pistol 3.0": '39"',
+        "Super Stroke Plus 2.0 XL": '39"',
+        "SinkFit": '39"',
+        "Winn Excell 15\"": '39"'
+      }
+  };
+
+
+
 
   const HOSEL_TYPES = {
     Plumbers: {
@@ -1455,6 +1595,11 @@ export default function PutterLength() {
         name:"Zero Torque (Long Allan)",
         maxList: ZeroLongshaftMaxList,
         minList: ZeroLongshaftMinList
+    },
+      ZeroDone: {
+        name:"Zero Torque (One & Done)",
+        maxList: ZeroDoneshaftMaxList,
+        minList: ZeroDoneshaftMinList
     },
   }
 
