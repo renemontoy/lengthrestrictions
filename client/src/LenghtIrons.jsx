@@ -940,11 +940,19 @@ export default function IronLength() {
             </div>
 
             <div style={styles.resultRow}>
-              <span>Maximum Length Over Standard P, T, CB, ST</span>
+              <span style={{lineHeight:"1.5"}}>
+              Maximum Length Over 
+              <br />
+              Standard P, T, CB, ST
+              </span>
               <span style={styles.resultBox}>{results.result_shaft_Max_P}</span>
             </div>
             <div style={styles.resultRow}>
-              <span>Maximum Length Over Standard XP, Wildcat, Black Ops</span>
+              <span style={{ lineHeight: "1.5" }}>
+                Maximum Length Over
+                <br />
+                Standard XP, Wildcat, Black Ops
+              </span>
               <span style={styles.resultBox}>{results.result_shaft_Max_XP}</span>
             </div>
           </div>
