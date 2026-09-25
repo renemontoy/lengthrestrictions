@@ -940,8 +940,7 @@ export default function IronLength() {
             </div>
 
             <div style={styles.resultRow}>
-              <span style={{lineHeight:"1.5"}}>
-              Maximum Length Over 
+              <span style={{lineHeight:1.5}}>Maximum Length Over 
               <br />
               Standard P, T, CB, ST
               </span>
