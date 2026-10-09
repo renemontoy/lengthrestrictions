@@ -65,6 +65,7 @@ const NavBarLength = () => {
             <Link to="/secretweapon" className="navbar-link">Secret Weapon</Link>
             <Link to="/fairway" className="navbar-link">Fairway</Link>
             <Link to="/Hybrid" className="navbar-link">Hybrid</Link>
+            <Link to="/drivingiron" className="navbar-link">Driving Iron</Link>
           </div>
         </div>
       </nav>

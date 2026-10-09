@@ -7,6 +7,7 @@ import FairwayLength from "./LengthFairway";
 import HybridLength from "./LenghtHybrid";
 import IronLength from "./LenghtIrons";
 import PutterLength from "./LenghtPutter";
+import DrivingIronLength from "./LenghtDrivingIron";
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
           <Route path="fairway" element={<FairwayLength />} />
           <Route path="hybrid" element={<HybridLength />} />
           <Route path="iron" element={<IronLength />} />
+          <Route path="drivingiron" element={<DrivingIronLength />} />
 
            </Route>
       </Routes>
