@@ -445,7 +445,7 @@ const HYBRID_LENGTHS = {
 
 export default function HybridLength() {
   // --- Estado del formulario ---
-  const [selectedShaft, setSelectedShaft] = useState("Fujikura Pro Blue 50 - R");
+  const [selectedShaft, setSelectedShaft] = useState("Accra iSeries 50i");
 
 
   // Todos los hierros utilizan la misma estructura de HYBRID_LENGTHS.
